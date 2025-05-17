@@ -8,8 +8,6 @@ export const App: React.FC = () => {
 
   useEffect(() => {
     const handleKeyUp = (event: KeyboardEvent) => {
-      event.preventDefault();
-
       setKey(event.key);
     };
 
